@@ -1,0 +1,2878 @@
+{
+ "generated_by": "/tmp/corpus_stats.py (stdlib)",
+ "seed": 20261104,
+ "source": "/Users/egearhany/.claude/codex-import/chats/*.md",
+ "corpus": {
+  "files": 1148,
+  "raw_sections": {
+   "HUMAN": 4950,
+   "LLM": 44635
+  },
+  "records_used": {
+   "HUMAN": 2434,
+   "LLM": 18189
+  },
+  "records_short_lt80": {
+   "LLM": 954,
+   "HUMAN": 846
+  },
+  "records_total_after_filter": {
+   "HUMAN": 3280,
+   "LLM": 19143
+  }
+ },
+ "roles": {
+  "HUMAN": {
+   "records_raw": 4950,
+   "records": 2434,
+   "records_short_lt80": 846,
+   "words": 311586,
+   "words_all_records": 317520,
+   "avg_words_per_record": 128.01,
+   "avg_words_per_record_all": 96.8,
+   "median_words_per_record": 51.0,
+   "sentences": 38854,
+   "sentences_per_record": 15.96,
+   "avg_words_per_line": 10.04,
+   "median_words_per_line": 4,
+   "lines_per_record": 12.76,
+   "pct_lines_without_terminal_punct": 74.46,
+   "avg_words_per_sentence": 8.02,
+   "median_words_per_sentence": 5.0,
+   "sent_buckets": {
+    "<=8": 26093,
+    "9-15": 7922,
+    "16-25": 3187,
+    "26-40": 1186,
+    ">40": 466
+   },
+   "sent_bucket_pct": {
+    "<=8": 67.16,
+    "9-15": 20.39,
+    "16-25": 8.2,
+    "26-40": 3.05,
+    ">40": 1.2
+   },
+   "pct_long_gt40": 1.2,
+   "pct_short_le8": 67.16,
+   "pct_le15": 87.55,
+   "pct_gt25": 4.25,
+   "avg_word_len": 5.639,
+   "tr_char_ratio_per_1k_words": 294.93,
+   "tr_chars_per_100_chars": 4.05,
+   "distinct_chars": 257,
+   "distinct_tr_chars": 12,
+   "punct_per_1k": {
+    "emdash": 1.0,
+    "endash": 0.39,
+    "semicolon": 6.81,
+    "colon": 40.54,
+    "paren_open": 11.01,
+    "paren_close": 11.28,
+    "ellipsis": 1.6,
+    "quote_curly_open": 0.65,
+    "quote_curly_close": 0.64,
+    "quote_straight": 23.51,
+    "exclaim": 0.76,
+    "question": 3.27,
+    "apostrophe_curly": 1.45,
+    "inline_code": 25.55
+   },
+   "markdown_per_1k": {
+    "bullet_dash": 23.95,
+    "bullet_star": 0.78,
+    "numbered": 5.49,
+    "bold": 3.67,
+    "heading": 3.78,
+    "table_row": 1.91,
+    "emoji": 0.28,
+    "any_list": 30.22
+   },
+   "pct_lines_that_are_list": 28.39,
+   "pct_records_with_bullets": 23.13,
+   "pct_records_plain_prose": 69.8,
+   "pct_records_with_question": 23.99,
+   "pct_records_with_exclaim": 3.08,
+   "pct_sentences_with_terminal_punct": 40.52,
+   "top_initial_words": [
+    [
+     "the",
+     968,
+     2.49
+    ],
+    [
+     "bu",
+     634,
+     1.63
+    ],
+    [
+     "in",
+     576,
+     1.48
+    ],
+    [
+     "target",
+     548,
+     1.41
+    ],
+    [
+     "do",
+     497,
+     1.28
+    ],
+    [
+     "ın",
+     371,
+     0.95
+    ],
+    [
+     "this",
+     356,
+     0.92
+    ],
+    [
+     "codex",
+     320,
+     0.82
+    ],
+    [
+     "saved",
+     292,
+     0.75
+    ],
+    [
+     "treat",
+     281,
+     0.72
+    ],
+    [
+     "send",
+     276,
+     0.71
+    ],
+    [
+     "user",
+     265,
+     0.68
+    ],
+    [
+     "frame",
+     258,
+     0.66
+    ],
+    [
+     "node",
+     256,
+     0.66
+    ],
+    [
+     "comment",
+     254,
+     0.65
+    ],
+    [
+     "untrusted",
+     248,
+     0.64
+    ],
+    [
+     "her",
+     245,
+     0.63
+    ],
+    [
+     "model",
+     220,
+     0.57
+    ],
+    [
+     "weak",
+     219,
+     0.56
+    ],
+    [
+     "page",
+     215,
+     0.55
+    ],
+    [
+     "ıf",
+     208,
+     0.54
+    ],
+    [
+     "submission",
+     206,
+     0.53
+    ],
+    [
+     "ayrıca",
+     197,
+     0.51
+    ],
+    [
+     "complete",
+     197,
+     0.51
+    ],
+    [
+     "yeni",
+     188,
+     0.48
+    ],
+    [
+     "x",
+     186,
+     0.48
+    ],
+    [
+     "browser",
+     184,
+     0.47
+    ],
+    [
+     "mevcut",
+     183,
+     0.47
+    ],
+    [
+     "task",
+     176,
+     0.45
+    ],
+    [
+     "distinguish",
+     173,
+     0.45
+    ]
+   ],
+   "top_final_words": [
+    [
+     "request",
+     496,
+     13.28
+    ],
+    [
+     "vs",
+     276,
+     7.39
+    ],
+    [
+     "browser",
+     274,
+     7.33
+    ],
+    [
+     "instructions",
+     255,
+     6.83
+    ],
+    [
+     "comment",
+     254,
+     6.8
+    ],
+    [
+     "yok",
+     181,
+     4.84
+    ],
+    [
+     "kullanma",
+     174,
+     4.66
+    ],
+    [
+     "tab",
+     149,
+     3.99
+    ],
+    [
+     "olsun",
+     138,
+     3.69
+    ],
+    [
+     "tabs",
+     127,
+     3.4
+    ],
+    [
+     "et",
+     116,
+     3.1
+    ],
+    [
+     "yap",
+     101,
+     2.7
+    ],
+    [
+     "oluştur",
+     99,
+     2.65
+    ],
+    [
+     "ver",
+     98,
+     2.62
+    ],
+    [
+     "open",
+     84,
+     2.25
+    ],
+    [
+     "değiştirme",
+     82,
+     2.19
+    ],
+    [
+     "mı",
+     80,
+     2.14
+    ],
+    [
+     "kullan",
+     76,
+     2.03
+    ],
+    [
+     "üret",
+     76,
+     2.03
+    ],
+    [
+     "doğrula",
+     76,
+     2.03
+    ],
+    [
+     "var",
+     73,
+     1.95
+    ],
+    [
+     "ekle",
+     69,
+     1.85
+    ],
+    [
+     "yazma",
+     64,
+     1.71
+    ],
+    [
+     "it",
+     62,
+     1.66
+    ],
+    [
+     "belirt",
+     62,
+     1.66
+    ]
+   ],
+   "sentence_final_verbish_pct": 21.07,
+   "devrik_proxy_pct": 78.93,
+   "tells_per_1k": {
+    "bu bağlamda": 0.0,
+    "bu doğrultuda": 0.0,
+    "ayrıca": 2.23,
+    "bununla birlikte": 0.0,
+    "sonuç olarak": 0.0,
+    "özetle": 0.03,
+    "kısacası": 0.0,
+    "özet olarak": 0.0,
+    "unutulmamalıdır": 0.0,
+    "unutmayın": 0.0,
+    "büyük önem": 0.0,
+    "kritik rol": 0.0,
+    "önemli bir rol": 0.0,
+    "temelini oluştur": 0.0,
+    "potansiyel": 0.0,
+    "zengin bir": 0.0,
+    "sunduğu": 0.0,
+    "sağlar": 0.02,
+    "gerçekleştir": 0.01,
+    "işte burada": 0.01,
+    "şöyle düşünün": 0.0,
+    "hayal edin": 0.0,
+    "adeta": 0.0,
+    "dolayısıyla": 0.02,
+    "böylece": 0.14,
+    "dikkat çekici": 0.01,
+    "dikkat etmek gerekir": 0.0,
+    "bu nedenle": 0.03,
+    "son derece": 0.0,
+    "oldukça": 0.01,
+    "geniş bir yelpaze": 0.0,
+    "çeşitli": 0.04,
+    "bir dizi": 0.0,
+    "söz konusu": 0.0,
+    "bahse konu": 0.0,
+    "yani": 0.5,
+    "işte": 0.29,
+    "hani": 0.02,
+    "bir de": 0.01,
+    "aslında": 0.11,
+    "açıkçası": 0.0,
+    "tabii": 0.0,
+    "bence": 0.05,
+    "sanırım": 0.04,
+    "galiba": 0.04,
+    "ya": 0.72,
+    "sadece ... değil": 0.13,
+    "hem ... hem de": 0.03,
+    "oldukça önemli": 0.0
+   },
+   "suffix_mektedir_per_1k": 0.15,
+   "suffix_mekte_per_1k": 0.02,
+   "suffix_dir_per_1k": 2.27,
+   "suffix_yor_per_1k": 9.55,
+   "suffix_mis_per_1k": 1.95,
+   "suffix_di_per_1k": 11.23,
+   "pronouns_per_1k": {
+    "sen_forms": 1.38,
+    "siz_forms": 0.41,
+    "ben_forms": 2.64,
+    "biz_forms": 0.24
+   },
+   "sen_siz_ratio": 3.366,
+   "verb_proxies_per_1k": {
+    "sağlamak": 0.34,
+    "gerçekleştirmek": 0.03,
+    "sunmak": 0.08,
+    "oluşturmak": 1.07,
+    "içermek": 0.14,
+    "taşımak": 0.02,
+    "yapmak": 1.73,
+    "etmek": 0.4,
+    "vermek": 0.95,
+    "almak": 0.5,
+    "olmak": 6.11
+   },
+   "light_verb_total": 1.68,
+   "plain_verb_total": 9.69,
+   "nominalization_regex_per_1k": 5.96,
+   "light_plain_ratio": 0.173,
+   "types": 23675,
+   "hapax": 6716,
+   "hapax_ratio": 0.2837,
+   "ttr": 0.076
+  },
+  "LLM": {
+   "records_raw": 44635,
+   "records": 18189,
+   "records_short_lt80": 954,
+   "words": 1271832,
+   "words_all_records": 1279345,
+   "avg_words_per_record": 69.92,
+   "avg_words_per_record_all": 66.83,
+   "median_words_per_record": 33,
+   "sentences": 136226,
+   "sentences_per_record": 7.49,
+   "avg_words_per_line": 14.28,
+   "median_words_per_line": 10.0,
+   "lines_per_record": 4.9,
+   "pct_lines_without_terminal_punct": 36.87,
+   "avg_words_per_sentence": 9.34,
+   "median_words_per_sentence": 8.0,
+   "sent_buckets": {
+    "<=8": 70542,
+    "9-15": 44324,
+    "16-25": 18851,
+    "26-40": 2422,
+    ">40": 87
+   },
+   "sent_bucket_pct": {
+    "<=8": 51.78,
+    "9-15": 32.54,
+    "16-25": 13.84,
+    "26-40": 1.78,
+    ">40": 0.06
+   },
+   "pct_long_gt40": 0.06,
+   "pct_short_le8": 51.78,
+   "pct_le15": 84.32,
+   "pct_gt25": 1.84,
+   "avg_word_len": 6.315,
+   "tr_char_ratio_per_1k_words": 675.43,
+   "tr_chars_per_100_chars": 8.65,
+   "distinct_chars": 230,
+   "distinct_tr_chars": 12,
+   "punct_per_1k": {
+    "emdash": 1.14,
+    "endash": 1.35,
+    "semicolon": 21.42,
+    "colon": 25.79,
+    "paren_open": 7.53,
+    "paren_close": 7.44,
+    "ellipsis": 0.09,
+    "quote_curly_open": 4.27,
+    "quote_curly_close": 4.27,
+    "quote_straight": 6.09,
+    "exclaim": 0.22,
+    "question": 1.16,
+    "apostrophe_curly": 15.58,
+    "inline_code": 26.65
+   },
+   "markdown_per_1k": {
+    "bullet_dash": 24.47,
+    "bullet_star": 0.0,
+    "numbered": 2.73,
+    "bold": 12.18,
+    "heading": 1.77,
+    "table_row": 1.94,
+    "emoji": 0.17,
+    "any_list": 27.21
+   },
+   "pct_lines_that_are_list": 36.96,
+   "pct_records_with_bullets": 16.89,
+   "pct_records_plain_prose": 71.14,
+   "pct_records_with_question": 4.05,
+   "pct_records_with_exclaim": 0.93,
+   "pct_sentences_with_terminal_punct": 75.9,
+   "top_initial_words": [
+    [
+     "bu",
+     4917,
+     3.61
+    ],
+    [
+     "şimdi",
+     3988,
+     2.93
+    ],
+    [
+     "yeni",
+     2306,
+     1.69
+    ],
+    [
+     "py",
+     1730,
+     1.27
+    ],
+    [
+     "son",
+     1627,
+     1.19
+    ],
+    [
+     "ilk",
+     1423,
+     1.04
+    ],
+    [
+     "update",
+     1420,
+     1.04
+    ],
+    [
+     "önce",
+     1379,
+     1.01
+    ],
+    [
+     "for",
+     1287,
+     0.94
+    ],
+    [
+     "mevcut",
+     1271,
+     0.93
+    ],
+    [
+     "canlı",
+     1257,
+     0.92
+    ],
+    [
+     "eğitim",
+     1128,
+     0.83
+    ],
+    [
+     "gerçek",
+     1029,
+     0.76
+    ],
+    [
+     "test",
+     856,
+     0.63
+    ],
+    [
+     "şu",
+     800,
+     0.59
+    ],
+    [
+     "aı",
+     761,
+     0.56
+    ],
+    [
+     "aynı",
+     759,
+     0.56
+    ],
+    [
+     "model",
+     711,
+     0.52
+    ],
+    [
+     "bunu",
+     704,
+     0.52
+    ],
+    [
+     "her",
+     701,
+     0.51
+    ],
+    [
+     "eski",
+     690,
+     0.51
+    ],
+    [
+     "ayrıca",
+     668,
+     0.49
+    ],
+    [
+     "ana",
+     660,
+     0.48
+    ],
+    [
+     "bir",
+     659,
+     0.48
+    ],
+    [
+     "if",
+     623,
+     0.46
+    ],
+    [
+     "iki",
+     607,
+     0.45
+    ],
+    [
+     "add",
+     593,
+     0.44
+    ],
+    [
+     "önceki",
+     591,
+     0.43
+    ],
+    [
+     "yerel",
+     562,
+     0.41
+    ],
+    [
+     "kod",
+     533,
+     0.39
+    ]
+   ],
+   "top_final_words": [
+    [
+     "geçti",
+     1947,
+     15.96
+    ],
+    [
+     "yok",
+     1695,
+     13.89
+    ],
+    [
+     "ediyorum",
+     1574,
+     12.9
+    ],
+    [
+     "değil",
+     1208,
+     9.9
+    ],
+    [
+     "edeceğim",
+     1126,
+     9.23
+    ],
+    [
+     "var",
+     1011,
+     8.29
+    ],
+    [
+     "eklendi",
+     967,
+     7.93
+    ],
+    [
+     "çalışıyor",
+     948,
+     7.77
+    ],
+    [
+     "olacak",
+     708,
+     5.8
+    ],
+    [
+     "doğrulayacağım",
+     664,
+     5.44
+    ],
+    [
+     "doğrulandı",
+     609,
+     4.99
+    ],
+    [
+     "gerekiyor",
+     591,
+     4.84
+    ],
+    [
+     "tamamlandı",
+     586,
+     4.8
+    ],
+    [
+     "doğruluyorum",
+     532,
+     4.36
+    ],
+    [
+     "ediyor",
+     511,
+     4.19
+    ],
+    [
+     "görünüyor",
+     491,
+     4.02
+    ],
+    [
+     "doğruladım",
+     424,
+     3.48
+    ],
+    [
+     "ekliyorum",
+     398,
+     3.26
+    ],
+    [
+     "hazır",
+     397,
+     3.25
+    ],
+    [
+     "gösteriyor",
+     394,
+     3.23
+    ],
+    [
+     "olur",
+     369,
+     3.02
+    ],
+    [
+     "sürüyor",
+     342,
+     2.8
+    ],
+    [
+     "kaldı",
+     330,
+     2.7
+    ],
+    [
+     "olabilir",
+     327,
+     2.68
+    ],
+    [
+     "korunuyor",
+     314,
+     2.57
+    ]
+   ],
+   "sentence_final_verbish_pct": 55.47,
+   "devrik_proxy_pct": 44.53,
+   "tells_per_1k": {
+    "bu bağlamda": 0.0,
+    "bu doğrultuda": 0.0,
+    "ayrıca": 1.42,
+    "bununla birlikte": 0.0,
+    "sonuç olarak": 0.01,
+    "özetle": 0.02,
+    "kısacası": 0.0,
+    "özet olarak": 0.0,
+    "unutulmamalıdır": 0.0,
+    "unutmayın": 0.0,
+    "büyük önem": 0.0,
+    "kritik rol": 0.0,
+    "önemli bir rol": 0.0,
+    "temelini oluştur": 0.0,
+    "potansiyel": 0.01,
+    "zengin bir": 0.0,
+    "sunduğu": 0.01,
+    "sağlar": 0.04,
+    "gerçekleştir": 0.0,
+    "işte burada": 0.0,
+    "şöyle düşünün": 0.0,
+    "hayal edin": 0.0,
+    "adeta": 0.0,
+    "dolayısıyla": 0.13,
+    "böylece": 0.71,
+    "dikkat çekici": 0.01,
+    "dikkat etmek gerekir": 0.0,
+    "bu nedenle": 0.28,
+    "son derece": 0.0,
+    "oldukça": 0.02,
+    "geniş bir yelpaze": 0.0,
+    "çeşitli": 0.04,
+    "bir dizi": 0.0,
+    "söz konusu": 0.0,
+    "bahse konu": 0.0,
+    "yani": 0.75,
+    "işte": 0.03,
+    "hani": 0.0,
+    "bir de": 0.04,
+    "aslında": 0.09,
+    "açıkçası": 0.0,
+    "tabii": 0.01,
+    "bence": 0.11,
+    "sanırım": 0.0,
+    "galiba": 0.0,
+    "ya": 0.84,
+    "sadece ... değil": 0.1,
+    "hem ... hem de": 0.11,
+    "oldukça önemli": 0.0
+   },
+   "suffix_mektedir_per_1k": 0.0,
+   "suffix_mekte_per_1k": 0.02,
+   "suffix_dir_per_1k": 1.09,
+   "suffix_yor_per_1k": 32.41,
+   "suffix_mis_per_1k": 6.66,
+   "suffix_di_per_1k": 40.42,
+   "pronouns_per_1k": {
+    "sen_forms": 0.81,
+    "siz_forms": 0.27,
+    "ben_forms": 0.7,
+    "biz_forms": 0.18
+   },
+   "sen_siz_ratio": 3.0,
+   "verb_proxies_per_1k": {
+    "sağlamak": 0.92,
+    "gerçekleştirmek": 0.01,
+    "sunmak": 0.2,
+    "oluşturmak": 1.34,
+    "içermek": 0.54,
+    "taşımak": 0.29,
+    "yapmak": 2.26,
+    "etmek": 0.95,
+    "vermek": 1.49,
+    "almak": 1.07,
+    "olmak": 8.38
+   },
+   "light_verb_total": 3.3,
+   "plain_verb_total": 14.15,
+   "nominalization_regex_per_1k": 13.73,
+   "light_plain_ratio": 0.233,
+   "types": 54176,
+   "hapax": 13819,
+   "hapax_ratio": 0.2551,
+   "ttr": 0.0426
+  }
+ },
+ "divergences": [
+  {
+   "metric": "ellipsis … per 1k words",
+   "human": 1.6,
+   "llm": 0.09,
+   "unit": "per1k",
+   "ratio": 0.08,
+   "delta": -1.51,
+   "score": 3.559,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "% sentences >40 words",
+   "human": 1.2,
+   "llm": 0.06,
+   "unit": "value",
+   "ratio": 0.09,
+   "delta": -1.14,
+   "score": 3.506,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "curly apostrophe ’ per 1k words",
+   "human": 1.45,
+   "llm": 15.58,
+   "unit": "per1k",
+   "ratio": 10.42,
+   "delta": 14.13,
+   "score": 3.381,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "curly quote “ per 1k words",
+   "human": 0.65,
+   "llm": 4.27,
+   "unit": "per1k",
+   "ratio": 6.17,
+   "delta": 3.62,
+   "score": 2.626,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "% records containing ?",
+   "human": 23.99,
+   "llm": 4.05,
+   "unit": "value",
+   "ratio": 0.17,
+   "delta": -19.94,
+   "score": 2.552,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "suffix -mektedir/-maktadır per 1k",
+   "human": 0.15,
+   "llm": 0.0,
+   "unit": "per1k",
+   "ratio": 0.25,
+   "delta": -0.15,
+   "score": 2.0,
+   "material": false,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "straight quote \" per 1k words",
+   "human": 23.51,
+   "llm": 6.09,
+   "unit": "per1k",
+   "ratio": 0.26,
+   "delta": -17.42,
+   "score": 1.94,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "suffix -dı/-di per 1k",
+   "human": 11.23,
+   "llm": 40.42,
+   "unit": "per1k",
+   "ratio": 3.59,
+   "delta": 29.19,
+   "score": 1.843,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "ben-forms per 1k",
+   "human": 2.64,
+   "llm": 0.7,
+   "unit": "per1k",
+   "ratio": 0.28,
+   "delta": -1.94,
+   "score": 1.843,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "suffix -yor per 1k",
+   "human": 9.55,
+   "llm": 32.41,
+   "unit": "per1k",
+   "ratio": 3.38,
+   "delta": 22.86,
+   "score": 1.758,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "suffix -mış/-miş per 1k",
+   "human": 1.95,
+   "llm": 6.66,
+   "unit": "per1k",
+   "ratio": 3.35,
+   "delta": 4.71,
+   "score": 1.746,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "markdown bold **x** per 1k words",
+   "human": 3.67,
+   "llm": 12.18,
+   "unit": "per1k",
+   "ratio": 3.29,
+   "delta": 8.51,
+   "score": 1.717,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "% records containing !",
+   "human": 3.08,
+   "llm": 0.93,
+   "unit": "value",
+   "ratio": 0.31,
+   "delta": -2.15,
+   "score": 1.675,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "en dash – per 1k words",
+   "human": 0.39,
+   "llm": 1.35,
+   "unit": "per1k",
+   "ratio": 3.18,
+   "delta": 0.96,
+   "score": 1.67,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "semicolon per 1k words",
+   "human": 6.81,
+   "llm": 21.42,
+   "unit": "per1k",
+   "ratio": 3.13,
+   "delta": 14.61,
+   "score": 1.646,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "exclamation ! per 1k words",
+   "human": 0.76,
+   "llm": 0.22,
+   "unit": "per1k",
+   "ratio": 0.33,
+   "delta": -0.54,
+   "score": 1.585,
+   "material": false,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "question ? per 1k words",
+   "human": 3.27,
+   "llm": 1.16,
+   "unit": "per1k",
+   "ratio": 0.36,
+   "delta": -2.11,
+   "score": 1.456,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "sentence-final verb-ish %",
+   "human": 21.07,
+   "llm": 55.47,
+   "unit": "value",
+   "ratio": 2.63,
+   "delta": 34.4,
+   "score": 1.394,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "lines per record",
+   "human": 12.76,
+   "llm": 4.9,
+   "unit": "value",
+   "ratio": 0.39,
+   "delta": -7.86,
+   "score": 1.372,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "median words per line/burst",
+   "human": 4,
+   "llm": 10.0,
+   "unit": "value",
+   "ratio": 2.48,
+   "delta": 6.0,
+   "score": 1.311,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "nominalization regex per 1k",
+   "human": 5.96,
+   "llm": 13.73,
+   "unit": "per1k",
+   "ratio": 2.29,
+   "delta": 7.77,
+   "score": 1.197,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "sentences per record",
+   "human": 15.96,
+   "llm": 7.49,
+   "unit": "value",
+   "ratio": 0.47,
+   "delta": -8.47,
+   "score": 1.086,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "Turkish chars per 100 chars",
+   "human": 4.05,
+   "llm": 8.65,
+   "unit": "per1k",
+   "ratio": 2.12,
+   "delta": 4.6,
+   "score": 1.085,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "markdown headings per 1k words",
+   "human": 3.78,
+   "llm": 1.77,
+   "unit": "per1k",
+   "ratio": 0.48,
+   "delta": -2.01,
+   "score": 1.073,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "suffix -dir/-dır per 1k",
+   "human": 2.27,
+   "llm": 1.09,
+   "unit": "per1k",
+   "ratio": 0.49,
+   "delta": -1.18,
+   "score": 1.025,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "% lines without terminal punctuation",
+   "human": 74.46,
+   "llm": 36.87,
+   "unit": "value",
+   "ratio": 0.5,
+   "delta": -37.59,
+   "score": 1.013,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "markdown numbered list per 1k words",
+   "human": 5.49,
+   "llm": 2.73,
+   "unit": "per1k",
+   "ratio": 0.5,
+   "delta": -2.76,
+   "score": 0.995,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "light verbs (sağlamak/gerçekleştirmek/sunmak/oluşturmak/içermek/taşımak) per 1k",
+   "human": 1.68,
+   "llm": 3.3,
+   "unit": "per1k",
+   "ratio": 1.94,
+   "delta": 1.62,
+   "score": 0.953,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "% sentences with terminal punctuation",
+   "human": 40.52,
+   "llm": 75.9,
+   "unit": "value",
+   "ratio": 1.87,
+   "delta": 35.38,
+   "score": 0.905,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "avg words per record (kept)",
+   "human": 128.01,
+   "llm": 69.92,
+   "unit": "value",
+   "ratio": 0.55,
+   "delta": -58.09,
+   "score": 0.872,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "devrik proxy % (non-verb final)",
+   "human": 78.93,
+   "llm": 44.53,
+   "unit": "value",
+   "ratio": 0.56,
+   "delta": -34.4,
+   "score": 0.825,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "sen-forms per 1k",
+   "human": 1.38,
+   "llm": 0.81,
+   "unit": "per1k",
+   "ratio": 0.6,
+   "delta": -0.57,
+   "score": 0.734,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "median words per sentence",
+   "human": 5.0,
+   "llm": 8.0,
+   "unit": "value",
+   "ratio": 1.59,
+   "delta": 3.0,
+   "score": 0.673,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "colon per 1k words",
+   "human": 40.54,
+   "llm": 25.79,
+   "unit": "per1k",
+   "ratio": 0.64,
+   "delta": -14.75,
+   "score": 0.652,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "emoji per 1k words",
+   "human": 0.28,
+   "llm": 0.17,
+   "unit": "per1k",
+   "ratio": 0.67,
+   "delta": -0.11,
+   "score": 0.585,
+   "material": false,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "parentheses ( per 1k words",
+   "human": 11.01,
+   "llm": 7.53,
+   "unit": "per1k",
+   "ratio": 0.69,
+   "delta": -3.48,
+   "score": 0.545,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "plain verbs (yapmak/etmek/vermek/almak/olmak) per 1k",
+   "human": 9.69,
+   "llm": 14.15,
+   "unit": "per1k",
+   "ratio": 1.46,
+   "delta": 4.46,
+   "score": 0.544,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "siz-forms per 1k",
+   "human": 0.41,
+   "llm": 0.27,
+   "unit": "per1k",
+   "ratio": 0.7,
+   "delta": -0.14,
+   "score": 0.524,
+   "material": false,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "avg words per line/burst",
+   "human": 10.04,
+   "llm": 14.28,
+   "unit": "value",
+   "ratio": 1.42,
+   "delta": 4.24,
+   "score": 0.506,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "% records with bullets",
+   "human": 23.13,
+   "llm": 16.89,
+   "unit": "value",
+   "ratio": 0.73,
+   "delta": -6.24,
+   "score": 0.452,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "type/token ratio",
+   "human": 0.076,
+   "llm": 0.0426,
+   "unit": "value",
+   "ratio": 0.73,
+   "delta": -0.03,
+   "score": 0.444,
+   "material": false,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "% lines that are list lines",
+   "human": 28.39,
+   "llm": 36.96,
+   "unit": "value",
+   "ratio": 1.3,
+   "delta": 8.57,
+   "score": 0.38,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "% sentences <=8 words",
+   "human": 67.16,
+   "llm": 51.78,
+   "unit": "value",
+   "ratio": 0.77,
+   "delta": -15.38,
+   "score": 0.375,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "avg words per sentence",
+   "human": 8.02,
+   "llm": 9.34,
+   "unit": "value",
+   "ratio": 1.16,
+   "delta": 1.32,
+   "score": 0.219,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "em dash — per 1k words",
+   "human": 1.0,
+   "llm": 1.14,
+   "unit": "per1k",
+   "ratio": 1.13,
+   "delta": 0.14,
+   "score": 0.181,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "avg word length",
+   "human": 5.639,
+   "llm": 6.315,
+   "unit": "value",
+   "ratio": 1.12,
+   "delta": 0.68,
+   "score": 0.162,
+   "material": false,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "hapax ratio",
+   "human": 0.2837,
+   "llm": 0.2551,
+   "unit": "value",
+   "ratio": 0.91,
+   "delta": -0.03,
+   "score": 0.129,
+   "material": false,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "inline code spans per 1k words",
+   "human": 25.55,
+   "llm": 26.65,
+   "unit": "per1k",
+   "ratio": 1.04,
+   "delta": 1.1,
+   "score": 0.061,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "% sentences <=15 words",
+   "human": 87.55,
+   "llm": 84.32,
+   "unit": "value",
+   "ratio": 0.96,
+   "delta": -3.23,
+   "score": 0.054,
+   "material": true,
+   "direction": "HUMAN higher"
+  },
+  {
+   "metric": "markdown bullets \"- \" per 1k words",
+   "human": 23.95,
+   "llm": 24.47,
+   "unit": "per1k",
+   "ratio": 1.02,
+   "delta": 0.52,
+   "score": 0.031,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "% records plain prose (no list/heading/bold/table)",
+   "human": 69.8,
+   "llm": 71.14,
+   "unit": "value",
+   "ratio": 1.02,
+   "delta": 1.34,
+   "score": 0.027,
+   "material": true,
+   "direction": "LLM higher"
+  },
+  {
+   "metric": "markdown table rows per 1k words",
+   "human": 1.91,
+   "llm": 1.94,
+   "unit": "per1k",
+   "ratio": 1.02,
+   "delta": 0.03,
+   "score": 0.022,
+   "material": true,
+   "direction": "LLM higher"
+  }
+ ],
+ "llm_overrepresented_words": [
+  {
+   "word": "doğruluyorum",
+   "llm": 646,
+   "human": 0,
+   "llm_per1k": 0.51,
+   "human_per1k": 0.0,
+   "ratio": 507928721.15,
+   "delta_per1k": 0.51
+  },
+  {
+   "word": "kontrolde",
+   "llm": 398,
+   "human": 0,
+   "llm_per1k": 0.31,
+   "human_per1k": 0.0,
+   "ratio": 312934413.72,
+   "delta_per1k": 0.31
+  },
+  {
+   "word": "doğrulayıp",
+   "llm": 347,
+   "human": 0,
+   "llm_per1k": 0.27,
+   "human_per1k": 0.0,
+   "ratio": 272834777.92,
+   "delta_per1k": 0.27
+  },
+  {
+   "word": "hazırlıyorum",
+   "llm": 293,
+   "human": 0,
+   "llm_per1k": 0.23,
+   "human_per1k": 0.0,
+   "ratio": 230376340.01,
+   "delta_per1k": 0.23
+  },
+  {
+   "word": "kuracağım",
+   "llm": 262,
+   "human": 0,
+   "llm_per1k": 0.21,
+   "human_per1k": 0.0,
+   "ratio": 206002051.59,
+   "delta_per1k": 0.21
+  },
+  {
+   "word": "inceleyeceğim",
+   "llm": 258,
+   "human": 0,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.0,
+   "ratio": 202856982.11,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "çalıştıracağım",
+   "llm": 256,
+   "human": 0,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.0,
+   "ratio": 201284447.37,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "becerisini",
+   "llm": 255,
+   "human": 0,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.0,
+   "ratio": 200498180.0,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "düzelteceğim",
+   "llm": 254,
+   "human": 0,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.0,
+   "ratio": 199711912.64,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "tamamlıyorum",
+   "llm": 227,
+   "human": 0,
+   "llm_per1k": 0.18,
+   "human_per1k": 0.0,
+   "ratio": 178482693.68,
+   "delta_per1k": 0.18
+  },
+  {
+   "word": "engellendi",
+   "llm": 217,
+   "human": 0,
+   "llm_per1k": 0.17,
+   "human_per1k": 0.0,
+   "ratio": 170620020.0,
+   "delta_per1k": 0.17
+  },
+  {
+   "word": "gördüm",
+   "llm": 217,
+   "human": 0,
+   "llm_per1k": 0.17,
+   "human_per1k": 0.0,
+   "ratio": 170620020.0,
+   "delta_per1k": 0.17
+  },
+  {
+   "word": "tamamlanmadı",
+   "llm": 204,
+   "human": 0,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.0,
+   "ratio": 160398544.2,
+   "delta_per1k": 0.16
+  },
+  {
+   "word": "düzeltiyorum",
+   "llm": 539,
+   "human": 1,
+   "llm_per1k": 0.42,
+   "human_per1k": 0.0,
+   "ratio": 132.05,
+   "delta_per1k": 0.42
+  },
+  {
+   "word": "düzelttim",
+   "llm": 471,
+   "human": 1,
+   "llm_per1k": 0.37,
+   "human_per1k": 0.0,
+   "ratio": 115.39,
+   "delta_per1k": 0.37
+  },
+  {
+   "word": "doğrulayacağım",
+   "llm": 819,
+   "human": 2,
+   "llm_per1k": 0.64,
+   "human_per1k": 0.01,
+   "ratio": 100.32,
+   "delta_per1k": 0.64
+  },
+  {
+   "word": "ekliyorum",
+   "llm": 733,
+   "human": 2,
+   "llm_per1k": 0.58,
+   "human_per1k": 0.01,
+   "ratio": 89.79,
+   "delta_per1k": 0.57
+  },
+  {
+   "word": "başarıyla",
+   "llm": 313,
+   "human": 1,
+   "llm_per1k": 0.25,
+   "human_per1k": 0.0,
+   "ratio": 76.68,
+   "delta_per1k": 0.24
+  },
+  {
+   "word": "edeceğim",
+   "llm": 1448,
+   "human": 5,
+   "llm_per1k": 1.14,
+   "human_per1k": 0.02,
+   "ratio": 70.95,
+   "delta_per1k": 1.12
+  },
+  {
+   "word": "hamle",
+   "llm": 254,
+   "human": 1,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.0,
+   "ratio": 62.23,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "yapacağım",
+   "llm": 500,
+   "human": 2,
+   "llm_per1k": 0.39,
+   "human_per1k": 0.01,
+   "ratio": 61.25,
+   "delta_per1k": 0.39
+  },
+  {
+   "word": "derlemesi",
+   "llm": 246,
+   "human": 1,
+   "llm_per1k": 0.19,
+   "human_per1k": 0.0,
+   "ratio": 60.27,
+   "delta_per1k": 0.19
+  },
+  {
+   "word": "kaydedildi",
+   "llm": 218,
+   "human": 1,
+   "llm_per1k": 0.17,
+   "human_per1k": 0.0,
+   "ratio": 53.41,
+   "delta_per1k": 0.17
+  },
+  {
+   "word": "testinde",
+   "llm": 204,
+   "human": 1,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.0,
+   "ratio": 49.98,
+   "delta_per1k": 0.16
+  },
+  {
+   "word": "parola",
+   "llm": 204,
+   "human": 1,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.0,
+   "ratio": 49.98,
+   "delta_per1k": 0.16
+  },
+  {
+   "word": "engelleme",
+   "llm": 202,
+   "human": 1,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.0,
+   "ratio": 49.49,
+   "delta_per1k": 0.16
+  },
+  {
+   "word": "arşiv",
+   "llm": 200,
+   "human": 1,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.0,
+   "ratio": 49.0,
+   "delta_per1k": 0.15
+  },
+  {
+   "word": "ediyorum",
+   "llm": 1974,
+   "human": 10,
+   "llm_per1k": 1.55,
+   "human_per1k": 0.03,
+   "ratio": 48.36,
+   "delta_per1k": 1.52
+  },
+  {
+   "word": "okuyup",
+   "llm": 383,
+   "human": 2,
+   "llm_per1k": 0.3,
+   "human_per1k": 0.01,
+   "ratio": 46.92,
+   "delta_per1k": 0.29
+  },
+  {
+   "word": "ekleyeceğim",
+   "llm": 376,
+   "human": 2,
+   "llm_per1k": 0.3,
+   "human_per1k": 0.01,
+   "ratio": 46.06,
+   "delta_per1k": 0.29
+  },
+  {
+   "word": "sed",
+   "llm": 261,
+   "human": 2,
+   "llm_per1k": 0.21,
+   "human_per1k": 0.01,
+   "ratio": 31.97,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "ulaştı",
+   "llm": 259,
+   "human": 2,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.01,
+   "ratio": 31.73,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "adımda",
+   "llm": 257,
+   "human": 2,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.01,
+   "ratio": 31.48,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "doğruladım",
+   "llm": 740,
+   "human": 6,
+   "llm_per1k": 0.58,
+   "human_per1k": 0.02,
+   "ratio": 30.22,
+   "delta_per1k": 0.56
+  },
+  {
+   "word": "netleşti",
+   "llm": 238,
+   "human": 2,
+   "llm_per1k": 0.19,
+   "human_per1k": 0.01,
+   "ratio": 29.15,
+   "delta_per1k": 0.18
+  },
+  {
+   "word": "dağıtım",
+   "llm": 238,
+   "human": 2,
+   "llm_per1k": 0.19,
+   "human_per1k": 0.01,
+   "ratio": 29.15,
+   "delta_per1k": 0.18
+  },
+  {
+   "word": "sağlıklı",
+   "llm": 230,
+   "human": 2,
+   "llm_per1k": 0.18,
+   "human_per1k": 0.01,
+   "ratio": 28.17,
+   "delta_per1k": 0.17
+  },
+  {
+   "word": "inceliyorum",
+   "llm": 228,
+   "human": 2,
+   "llm_per1k": 0.18,
+   "human_per1k": 0.01,
+   "ratio": 27.93,
+   "delta_per1k": 0.17
+  },
+  {
+   "word": "update",
+   "llm": 1468,
+   "human": 14,
+   "llm_per1k": 1.15,
+   "human_per1k": 0.04,
+   "ratio": 25.69,
+   "delta_per1k": 1.11
+  },
+  {
+   "word": "regresyon",
+   "llm": 202,
+   "human": 2,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.01,
+   "ratio": 24.74,
+   "delta_per1k": 0.15
+  },
+  {
+   "word": "sunucudaki",
+   "llm": 269,
+   "human": 3,
+   "llm_per1k": 0.21,
+   "human_per1k": 0.01,
+   "ratio": 21.97,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "tamamlandı",
+   "llm": 1657,
+   "human": 19,
+   "llm_per1k": 1.3,
+   "human_per1k": 0.06,
+   "ratio": 21.37,
+   "delta_per1k": 1.24
+  },
+  {
+   "word": "kontrolleri",
+   "llm": 600,
+   "human": 7,
+   "llm_per1k": 0.47,
+   "human_per1k": 0.02,
+   "ratio": 21.0,
+   "delta_per1k": 0.45
+  },
+  {
+   "word": "print",
+   "llm": 255,
+   "human": 3,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.01,
+   "ratio": 20.82,
+   "delta_per1k": 0.19
+  },
+  {
+   "word": "korundu",
+   "llm": 242,
+   "human": 3,
+   "llm_per1k": 0.19,
+   "human_per1k": 0.01,
+   "ratio": 19.76,
+   "delta_per1k": 0.18
+  },
+  {
+   "word": "beş",
+   "llm": 321,
+   "human": 4,
+   "llm_per1k": 0.25,
+   "human_per1k": 0.01,
+   "ratio": 19.66,
+   "delta_per1k": 0.24
+  },
+  {
+   "word": "lint",
+   "llm": 239,
+   "human": 3,
+   "llm_per1k": 0.19,
+   "human_per1k": 0.01,
+   "ratio": 19.52,
+   "delta_per1k": 0.18
+  },
+  {
+   "word": "katmanı",
+   "llm": 318,
+   "human": 4,
+   "llm_per1k": 0.25,
+   "human_per1k": 0.01,
+   "ratio": 19.48,
+   "delta_per1k": 0.24
+  },
+  {
+   "word": "tamamı",
+   "llm": 469,
+   "human": 6,
+   "llm_per1k": 0.37,
+   "human_per1k": 0.02,
+   "ratio": 19.15,
+   "delta_per1k": 0.35
+  },
+  {
+   "word": "sıradaki",
+   "llm": 230,
+   "human": 3,
+   "llm_per1k": 0.18,
+   "human_per1k": 0.01,
+   "ratio": 18.78,
+   "delta_per1k": 0.17
+  },
+  {
+   "word": "servisi",
+   "llm": 305,
+   "human": 4,
+   "llm_per1k": 0.24,
+   "human_per1k": 0.01,
+   "ratio": 18.68,
+   "delta_per1k": 0.23
+  },
+  {
+   "word": "saniyede",
+   "llm": 227,
+   "human": 3,
+   "llm_per1k": 0.18,
+   "human_per1k": 0.01,
+   "ratio": 18.54,
+   "delta_per1k": 0.17
+  },
+  {
+   "word": "çalıştırıp",
+   "llm": 209,
+   "human": 3,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.01,
+   "ratio": 17.07,
+   "delta_per1k": 0.15
+  },
+  {
+   "word": "bekliyorum",
+   "llm": 202,
+   "human": 3,
+   "llm_per1k": 0.16,
+   "human_per1k": 0.01,
+   "ratio": 16.5,
+   "delta_per1k": 0.15
+  },
+  {
+   "word": "alacağım",
+   "llm": 268,
+   "human": 4,
+   "llm_per1k": 0.21,
+   "human_per1k": 0.01,
+   "ratio": 16.41,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "denetimi",
+   "llm": 265,
+   "human": 4,
+   "llm_per1k": 0.21,
+   "human_per1k": 0.01,
+   "ratio": 16.23,
+   "delta_per1k": 0.2
+  },
+  {
+   "word": "üretildi",
+   "llm": 256,
+   "human": 4,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.01,
+   "ratio": 15.68,
+   "delta_per1k": 0.19
+  },
+  {
+   "word": "parça",
+   "llm": 254,
+   "human": 4,
+   "llm_per1k": 0.2,
+   "human_per1k": 0.01,
+   "ratio": 15.56,
+   "delta_per1k": 0.19
+  },
+  {
+   "word": "ekleyip",
+   "llm": 239,
+   "human": 4,
+   "llm_per1k": 0.19,
+   "human_per1k": 0.01,
+   "ratio": 14.64,
+   "delta_per1k": 0.18
+  },
+  {
+   "word": "buldum",
+   "llm": 477,
+   "human": 8,
+   "llm_per1k": 0.38,
+   "human_per1k": 0.03,
+   "ratio": 14.61,
+   "delta_per1k": 0.35
+  }
+ ],
+ "human_overrepresented_words": [
+  {
+   "word": "comment",
+   "llm": 3,
+   "human": 1257,
+   "llm_per1k": 0.0,
+   "human_per1k": 4.03,
+   "ratio": 0.0,
+   "delta_per1k": -4.03
+  },
+  {
+   "word": "selector",
+   "llm": 2,
+   "human": 254,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.82,
+   "ratio": 0.0,
+   "delta_per1k": -0.81
+  },
+  {
+   "word": "attached",
+   "llm": 5,
+   "human": 444,
+   "llm_per1k": 0.0,
+   "human_per1k": 1.42,
+   "ratio": 0.0,
+   "delta_per1k": -1.42
+  },
+  {
+   "word": "blue",
+   "llm": 5,
+   "human": 255,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.82,
+   "ratio": 0.0,
+   "delta_per1k": -0.81
+  },
+  {
+   "word": "supplied",
+   "llm": 5,
+   "human": 280,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.9,
+   "ratio": 0.0,
+   "delta_per1k": -0.89
+  },
+  {
+   "word": "je",
+   "llm": 1,
+   "human": 270,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.87,
+   "ratio": 0.0,
+   "delta_per1k": -0.87
+  },
+  {
+   "word": "untrusted",
+   "llm": 2,
+   "human": 504,
+   "llm_per1k": 0.0,
+   "human_per1k": 1.62,
+   "ratio": 0.0,
+   "delta_per1k": -1.62
+  },
+  {
+   "word": "element",
+   "llm": 2,
+   "human": 253,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.81,
+   "ratio": 0.0,
+   "delta_per1k": -0.81
+  },
+  {
+   "word": "instructions",
+   "llm": 1,
+   "human": 799,
+   "llm_per1k": 0.0,
+   "human_per1k": 2.56,
+   "ratio": 0.0,
+   "delta_per1k": -2.56
+  },
+  {
+   "word": "ago",
+   "llm": 2,
+   "human": 208,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.67,
+   "ratio": 0.0,
+   "delta_per1k": -0.67
+  },
+  {
+   "word": "selected",
+   "llm": 9,
+   "human": 554,
+   "llm_per1k": 0.01,
+   "human_per1k": 1.78,
+   "ratio": 0.0,
+   "delta_per1k": -1.77
+  },
+  {
+   "word": "treat",
+   "llm": 2,
+   "human": 562,
+   "llm_per1k": 0.0,
+   "human_per1k": 1.8,
+   "ratio": 0.0,
+   "delta_per1k": -1.8
+  },
+  {
+   "word": "user's",
+   "llm": 3,
+   "human": 527,
+   "llm_per1k": 0.0,
+   "human_per1k": 1.69,
+   "ratio": 0.0,
+   "delta_per1k": -1.69
+  },
+  {
+   "word": "position",
+   "llm": 3,
+   "human": 254,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.82,
+   "ratio": 0.0,
+   "delta_per1k": -0.81
+  },
+  {
+   "word": "browser",
+   "llm": 97,
+   "human": 2012,
+   "llm_per1k": 0.08,
+   "human_per1k": 6.46,
+   "ratio": 0.01,
+   "delta_per1k": -6.38
+  },
+  {
+   "word": "page",
+   "llm": 72,
+   "human": 1282,
+   "llm_per1k": 0.06,
+   "human_per1k": 4.11,
+   "ratio": 0.01,
+   "delta_per1k": -4.06
+  },
+  {
+   "word": "part",
+   "llm": 11,
+   "human": 301,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.97,
+   "ratio": 0.01,
+   "delta_per1k": -0.96
+  },
+  {
+   "word": "question",
+   "llm": 18,
+   "human": 578,
+   "llm_per1k": 0.01,
+   "human_per1k": 1.86,
+   "ratio": 0.01,
+   "delta_per1k": -1.84
+  },
+  {
+   "word": "image",
+   "llm": 37,
+   "human": 1111,
+   "llm_per1k": 0.03,
+   "human_per1k": 3.57,
+   "ratio": 0.01,
+   "delta_per1k": -3.54
+  },
+  {
+   "word": "saved",
+   "llm": 12,
+   "human": 325,
+   "llm_per1k": 0.01,
+   "human_per1k": 1.04,
+   "ratio": 0.01,
+   "delta_per1k": -1.03
+  },
+  {
+   "word": "istiyorum",
+   "llm": 22,
+   "human": 549,
+   "llm_per1k": 0.02,
+   "human_per1k": 1.76,
+   "ratio": 0.01,
+   "delta_per1k": -1.74
+  },
+  {
+   "word": "bi",
+   "llm": 13,
+   "human": 350,
+   "llm_per1k": 0.01,
+   "human_per1k": 1.12,
+   "ratio": 0.01,
+   "delta_per1k": -1.11
+  },
+  {
+   "word": "viewport",
+   "llm": 10,
+   "human": 296,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.95,
+   "ratio": 0.01,
+   "delta_per1k": -0.94
+  },
+  {
+   "word": "yıldızalkan",
+   "llm": 10,
+   "human": 220,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.71,
+   "ratio": 0.01,
+   "delta_per1k": -0.7
+  },
+  {
+   "word": "explicitly",
+   "llm": 7,
+   "human": 296,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.95,
+   "ratio": 0.01,
+   "delta_per1k": -0.94
+  },
+  {
+   "word": "that",
+   "llm": 29,
+   "human": 814,
+   "llm_per1k": 0.02,
+   "human_per1k": 2.61,
+   "ratio": 0.01,
+   "delta_per1k": -2.59
+  },
+  {
+   "word": "answer",
+   "llm": 5,
+   "human": 227,
+   "llm_per1k": 0.0,
+   "human_per1k": 0.73,
+   "ratio": 0.01,
+   "delta_per1k": -0.72
+  },
+  {
+   "word": "marker",
+   "llm": 21,
+   "human": 508,
+   "llm_per1k": 0.02,
+   "human_per1k": 1.63,
+   "ratio": 0.01,
+   "delta_per1k": -1.61
+  },
+  {
+   "word": "reply",
+   "llm": 7,
+   "human": 340,
+   "llm_per1k": 0.01,
+   "human_per1k": 1.09,
+   "ratio": 0.01,
+   "delta_per1k": -1.09
+  },
+  {
+   "word": "has",
+   "llm": 16,
+   "human": 398,
+   "llm_per1k": 0.01,
+   "human_per1k": 1.28,
+   "ratio": 0.01,
+   "delta_per1k": -1.26
+  },
+  {
+   "word": "when",
+   "llm": 13,
+   "human": 225,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.72,
+   "ratio": 0.01,
+   "delta_per1k": -0.71
+  },
+  {
+   "word": "user",
+   "llm": 150,
+   "human": 2317,
+   "llm_per1k": 0.12,
+   "human_per1k": 7.44,
+   "ratio": 0.02,
+   "delta_per1k": -7.32
+  },
+  {
+   "word": "section",
+   "llm": 26,
+   "human": 319,
+   "llm_per1k": 0.02,
+   "human_per1k": 1.02,
+   "ratio": 0.02,
+   "delta_per1k": -1.0
+  },
+  {
+   "word": "screenshot",
+   "llm": 18,
+   "human": 266,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.85,
+   "ratio": 0.02,
+   "delta_per1k": -0.84
+  },
+  {
+   "word": "send",
+   "llm": 22,
+   "human": 350,
+   "llm_per1k": 0.02,
+   "human_per1k": 1.12,
+   "ratio": 0.02,
+   "delta_per1k": -1.11
+  },
+  {
+   "word": "vs",
+   "llm": 44,
+   "human": 471,
+   "llm_per1k": 0.03,
+   "human_per1k": 1.51,
+   "ratio": 0.02,
+   "delta_per1k": -1.48
+  },
+  {
+   "word": "the",
+   "llm": 541,
+   "human": 5888,
+   "llm_per1k": 0.43,
+   "human_per1k": 18.9,
+   "ratio": 0.02,
+   "delta_per1k": -18.47
+  },
+  {
+   "word": "this",
+   "llm": 63,
+   "human": 672,
+   "llm_per1k": 0.05,
+   "human_per1k": 2.16,
+   "ratio": 0.02,
+   "delta_per1k": -2.11
+  },
+  {
+   "word": "ui",
+   "llm": 29,
+   "human": 299,
+   "llm_per1k": 0.02,
+   "human_per1k": 0.96,
+   "ratio": 0.02,
+   "delta_per1k": -0.94
+  },
+  {
+   "word": "any",
+   "llm": 33,
+   "human": 390,
+   "llm_per1k": 0.03,
+   "human_per1k": 1.25,
+   "ratio": 0.02,
+   "delta_per1k": -1.23
+  },
+  {
+   "word": "you",
+   "llm": 36,
+   "human": 465,
+   "llm_per1k": 0.03,
+   "human_per1k": 1.49,
+   "ratio": 0.02,
+   "delta_per1k": -1.46
+  },
+  {
+   "word": "complete",
+   "llm": 18,
+   "human": 252,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.81,
+   "ratio": 0.02,
+   "delta_per1k": -0.79
+  },
+  {
+   "word": "it",
+   "llm": 51,
+   "human": 803,
+   "llm_per1k": 0.04,
+   "human_per1k": 2.58,
+   "ratio": 0.02,
+   "delta_per1k": -2.54
+  },
+  {
+   "word": "your",
+   "llm": 23,
+   "human": 285,
+   "llm_per1k": 0.02,
+   "human_per1k": 0.91,
+   "ratio": 0.02,
+   "delta_per1k": -0.9
+  },
+  {
+   "word": "ıf",
+   "llm": 16,
+   "human": 232,
+   "llm_per1k": 0.01,
+   "human_per1k": 0.74,
+   "ratio": 0.02,
+   "delta_per1k": -0.73
+  },
+  {
+   "word": "documents",
+   "llm": 23,
+   "human": 251,
+   "llm_per1k": 0.02,
+   "human_per1k": 0.81,
+   "ratio": 0.02,
+   "delta_per1k": -0.79
+  },
+  {
+   "word": "target",
+   "llm": 70,
+   "human": 563,
+   "llm_per1k": 0.06,
+   "human_per1k": 1.81,
+   "ratio": 0.03,
+   "delta_per1k": -1.75
+  },
+  {
+   "word": "next",
+   "llm": 65,
+   "human": 473,
+   "llm_per1k": 0.05,
+   "human_per1k": 1.52,
+   "ratio": 0.03,
+   "delta_per1k": -1.47
+  },
+  {
+   "word": "document",
+   "llm": 50,
+   "human": 486,
+   "llm_per1k": 0.04,
+   "human_per1k": 1.56,
+   "ratio": 0.03,
+   "delta_per1k": -1.52
+  },
+  {
+   "word": "arhan",
+   "llm": 31,
+   "human": 232,
+   "llm_per1k": 0.02,
+   "human_per1k": 0.74,
+   "ratio": 0.03,
+   "delta_per1k": -0.72
+  },
+  {
+   "word": "do",
+   "llm": 64,
+   "human": 600,
+   "llm_per1k": 0.05,
+   "human_per1k": 1.93,
+   "ratio": 0.03,
+   "delta_per1k": -1.88
+  },
+  {
+   "word": "message",
+   "llm": 74,
+   "human": 419,
+   "llm_per1k": 0.06,
+   "human_per1k": 1.34,
+   "ratio": 0.04,
+   "delta_per1k": -1.29
+  },
+  {
+   "word": "use",
+   "llm": 57,
+   "human": 356,
+   "llm_per1k": 0.04,
+   "human_per1k": 1.14,
+   "ratio": 0.04,
+   "delta_per1k": -1.1
+  },
+  {
+   "word": "evidence",
+   "llm": 119,
+   "human": 820,
+   "llm_per1k": 0.09,
+   "human_per1k": 2.63,
+   "ratio": 0.04,
+   "delta_per1k": -2.54
+  },
+  {
+   "word": "by",
+   "llm": 85,
+   "human": 476,
+   "llm_per1k": 0.07,
+   "human_per1k": 1.53,
+   "ratio": 0.04,
+   "delta_per1k": -1.46
+  },
+  {
+   "word": "context",
+   "llm": 117,
+   "human": 720,
+   "llm_per1k": 0.09,
+   "human_per1k": 2.31,
+   "ratio": 0.04,
+   "delta_per1k": -2.22
+  },
+  {
+   "word": "call",
+   "llm": 38,
+   "human": 249,
+   "llm_per1k": 0.03,
+   "human_per1k": 0.8,
+   "ratio": 0.04,
+   "delta_per1k": -0.77
+  },
+  {
+   "word": "from",
+   "llm": 134,
+   "human": 823,
+   "llm_per1k": 0.11,
+   "human_per1k": 2.64,
+   "ratio": 0.04,
+   "delta_per1k": -2.54
+  },
+  {
+   "word": "app",
+   "llm": 316,
+   "human": 1634,
+   "llm_per1k": 0.25,
+   "human_per1k": 5.24,
+   "ratio": 0.05,
+   "delta_per1k": -5.0
+  },
+  {
+   "word": "content",
+   "llm": 90,
+   "human": 421,
+   "llm_per1k": 0.07,
+   "human_per1k": 1.35,
+   "ratio": 0.05,
+   "delta_per1k": -1.28
+  }
+ ],
+ "samples": {
+  "human": [
+   {
+    "file": "01a19096-1694-72c1-b35f-1c6c57e31951",
+    "text": "tüm işlemleri verileri çekmeyi göndermeyi gelenleri yanıtları ne varsa bu panelde olan gerçek bir api'ya çevirmeni istiyorum yani kapsamlı kullanışlı olsun kendi ekranımızdan yapabilelim herşeyi"
+   },
+   {
+    "file": "019facf0-e199-74a2-8ee0-1f77a85f6252",
+    "text": "yani önceden bahsettiğin gibi şöyle bir alanda olabilir çoğu kişi aslında yapay zekayı nasıl kullanacağını neler yapabileceğini kapasitesini işine hayatına nasıl entegre edeceiğini de bilmiyor ya bunun için bir eğitim platformu kurmak nasıl olur yine tamamen ai destekli bunu yapan bir firma yada…"
+   },
+   {
+    "file": "01a07308-f4bc-7bc0-98e4-22f5a9248f3f",
+    "text": "bu sistemi komple incele eksikliklerini geliştirilmesi gereken yanları mantık hataları güvenlik sıkıntıları vs vs vs.. ne var ne yok herşeyi yap özellikler ekle tam laışır olsun herşey bu sistemin tamamen gerçekten çalışır basit anlaşılır işe yarar cezbedici görenlerin bunu nasıl düşündünüz lan,…"
+   },
+   {
+    "file": "01a16398-149d-7180-bc8e-4e52ab9fc773",
+    "text": "bendeki esp32nin özelliklerini düşün ve özelliklerini baya iyi kullanarak yapabileceğimiz birşey olsun"
+   },
+   {
+    "file": "01a16398-14f9-71e3-9f6d-f024a46ffbf1",
+    "text": "ayrıca bu kurumlarında sistem açabilmesi ,genel gidişatı kaç kullanıcı kaç lokasyon var gibi sistemde hata varmı vs vs gibi şeyler içinde bir admin panel olması gerekiyor yetkilendirmeleri manuel işlemleri halledebilmek için bir admin panelde ekle web üzerinden olsun yine bu sisteme tamamen bağlı…"
+   },
+   {
+    "file": "019fc99a-74cf-73b2-a47b-ffffe71412f4",
+    "text": "şimdi senden şunu istiyorum bu uygulamayı deneme amaçlı gerçek bir mali müşavir kullanacak finansa ik ya herşeye hakim 30yıllık deneyime sahip onun tam anlamıyla test edebilmesi için 10 yıllık ve +200 personeli olan sanayide üretim yapan bir firmayı simüle etmeni istiyorum tüm kayıtları herşeyi koy…"
+   },
+   {
+    "file": "01a15d4a-926c-7e02-993f-6101d2027a95",
+    "text": "ve bu sistem uygulama gibi birşey olsun ya telefonda yada pc den işte bağlanınca ai'ın kararlarını hangi kartları takip ettiğini kutuckları iksiri ne kadar gördüğünü vs."
+   },
+   {
+    "file": "01a177ae-c8d6-72a2-a973-f2392e38096e",
+    "text": "kaldığın yerden devam et ayrıca yani three ui 'ı gerçekten efektif kullanmamışssın ve ilk yukarıdaki düğmeye bas falan ateşlensin kötü yani logomuzu bi 3D ye çevir onu siteye entegre et kaydıkça birşeyler olsun ayrıca küçük ufak kenarda köşede kalan yazılar kullanma gerçekten havalı birşeyler…"
+   },
+   {
+    "file": "01a0dd9e-c19f-7f70-85a4-fa2132c9acb5",
+    "text": "bu yaptığın demo yine teknik kaçıyor senden isteğim çok basit bir demo alanıda olsun hiç bilmeyen biri demoya input vererek kolayca deneme yapabilsin"
+   },
+   {
+    "file": "019fc99a-74cf-73b2-a47b-ffffe71412f4",
+    "text": "workers paid planına geçtim gerekli şeyleri tamamla ve sitenin gerçek url'i açılmıyor herşey gerçekte hazır ve çalışır olsun"
+   },
+   {
+    "file": "01a177ae-c86a-7872-9c26-6b1900456762",
+    "text": "telefonu bağladım konya diye bi uygulama var bana çok eski ve konyayı yansıtmıyor gibi geliyor baştan tasarlarmısın tüm özellikleri kullanılabilir ve çok daha modern ferah özgün fütüristik bişi olsun"
+   },
+   {
+    "file": "01a0bbbd-690d-7e41-a1de-c919d8865b05",
+    "text": "bu ai-ege botunun görsel bi şekilde görmek istiyorum böyle repolar vardı sanki işte animasyon karakter halinde işte a ajanı gidiyor işi yapıyor b farklı bişeye bakıyor müdür var görev veriyor toplantı oluyor masaya oturuyorlar falan böyle bu sistemin görselleştirilmesini canlı olarak görebilmek…"
+   },
+   {
+    "file": "01a16398-149d-7180-bc8e-4e52ab9fc773",
+    "text": "ayrıca millet gemma 4 ile live görüntü analizleri yapyıor anında gemma 4 ile yapılmış şeyleri yapılabilecekleri araştır ve daha büyük hızlı tam gelişmiş bir sistem yap tam live bir sistem istiyorum ayrıca telefondan bir siteye giricem kamerayı oradan açıcam bu sitede jetsona bağlı olacak yani…"
+   },
+   {
+    "file": "01a177ae-c8f3-7a33-922c-0a83b5500b12",
+    "text": "şimdi senden tüm özellikleri tüm sistemin tamamını ne var ne yok her şeyi gerçek bir ortamdaymışsın gibi bir akışta kontrol etmeni gerçek çalışanlar gibi sistemi kullanarak kontrol etmeni istiyorum bu kontrolüde mümkünse bana kayda al ve bende daha sonra izleyebileyim her şeyi raporla görünüş…"
+   },
+   {
+    "file": "01a19096-1694-72c1-b35f-1c6c57e31951",
+    "text": "bu sonuçta llm ya hani ne kasttediğimi anlaması gerekmiyormu yani normal bi şekilde konuşabilirim hatalı yazılabilir ama bunları bilmesi gerekiyor yani"
+   },
+   {
+    "file": "019f1df0-3389-7630-9500-57c06315c736",
+    "text": "etiket işini yapalım daha qwen li oturum 4 saati var en az o yüzden ama bu etiket işini bana kolaylaştırman için bir arayüzde vermeni istiyorum ve 1 0 yazarak ok tuşlarıyla falan önceki sonraki de yapabilelim ama otomatik geçsin geri veya ileri gitmek için olsun ok tuşları her seferinde 1 tane…"
+   },
+   {
+    "file": "01a1608d-787d-7a12-a1b6-5814bee540d0",
+    "text": "aslında bu sistem bi firewall gibi çalışacak ama işte ai firewall olarak kişisel verileri maskeleyecek ai'a gelicek saldırılara yetksizi isteklere vs. müdhalede bulunacak bunun için veri seti araştırmasıy yap kapsamlı bi eğer yoksa veri seti oluşturularım evren platformunda ki modelleri kullanarak…"
+   },
+   {
+    "file": "01a1040b-be2f-70d0-b69d-8441c4b1f07a",
+    "text": "kasa kapandı bişey oldu victustan aynı şekilde herşeyin kusursuz devam etmesi gerek ya o yüzden sistemi bu duruma göre kontrol et herşey eksiksiz aynı şekilde kullanabileyim çalıştırabileyim sıkıntı çıkmasın"
+   },
+   {
+    "file": "01a16d1a-9633-7242-8ae1-c7a66ed3ea6d",
+    "text": "meta modelini yukarılara alabilirsin ocg de de lütfen buradaki kullanımı yüksek olacak limiti çabul doldurmayacak modellerden seç hız veya yanıt alınamadı hataları almayayım bi daha bi daha bana gece sürekli hata mesajları atmasın modellerden gerçekten sistem tam çalışır hatasız olsun jev sistemde…"
+   },
+   {
+    "file": "01a07308-f4bc-7bc0-98e4-22f5a9248f3f",
+    "text": "inovens ai için yaptığım telgram sistemleri olsun web sitesi frekans sistemi ve mizan-ai uygulamam bunları sunucuda kendi şahsi botumla tamamen sürekli entegre ve aynı bağlantıda tutmak istiyorum mesela telegram üzerinden birşey yaptıracam ama burada eksik kalıyor yada burada yapıyorum orada eksik…"
+   },
+   {
+    "file": "01a15d4a-926c-7e02-993f-6101d2027a95",
+    "text": "sistemi nasıl geliştirebilirim öyle bişey arıyorum ki her sistemi kullanırken way be iyiki yapmışım iyiki var gibi cümle kurdurtacak tarzda olsun"
+   },
+   {
+    "file": "01a0bbbd-690d-7e41-a1de-c919d8865b05",
+    "text": "ai-ege botunda android telefon bağlayacam ama elektik gidip geldiğinde falan adb kopuyor bunun için ne yapmam gerek ayrıca buradan istediği gibi herşeyi yapabilmesi için neleri açmam gerek"
+   },
+   {
+    "file": "01a160b6-1710-76d2-b8dc-6203a2db3ad4",
+    "text": "ana sayfaya modern bir takvim sistemli tamir rezervasyon sistemi eklemeni istiyorum ayrıca bu sitedeki contact formu ve takvimin doldurulan bilgileri admin panelde gözüksün admin panele bunları ve yönetimlerini yapabilmek ve monitör edebilmek gerek"
+   },
+   {
+    "file": "01a16398-146c-7382-a9b9-d7d92ba675da",
+    "text": "aslında ben sisteme topic vermek istemiyorum LLM in kendi kendine bir loop içinde arama yapmasını istiyorum herşeyi tam otomatik olsun istiyorum"
+   },
+   {
+    "file": "01a1561a-c37c-7e31-9c4e-ee4a63a88bd8",
+    "text": "gözlüğü bağladım devam et işlerinede ayrıca chatgpt ve claude için google ile giriş yapabilmem gerek ayrıca cursor da ekle mesela şuan kendi pc'm de codex switcher var claude codex ve cursora google ile giriş yaparak hesaplarımı ekleyebildim ve gemini içinde giriş yapabileyim gemini ai pro hesabım…"
+   },
+   {
+    "file": "01a1608d-787d-7a12-a1b6-5814bee540d0",
+    "text": "ve bulunduğun cihaz olan mac'i maksimum sınırlarına kadar kullan ama hata vermeden çökmeden olsun tabi bu"
+   },
+   {
+    "file": "01a1561a-c2dc-7f71-be50-ed9d850f2b7c",
+    "text": "hey rokid dediğimde anlayamadım tekrar söylermisin diye döngüye giriyo ve hey ajan dediğimde açılmıyor ayrıca roadmap'in tüm maddelerin yap ayrıca rokidin kendi uygulamasında vision ai widgets toolbox ve agent store gibi şeyler var bunlar nedir agent store harici bizede ekle agent store mantığını…"
+   },
+   {
+    "file": "019e8022-144a-7842-9e3f-87d8527ec6d1",
+    "text": "daha çeşitli veri istiyorum benim için en optimal ayarı yap 100 olsun ayrıca daha farklı siteler bulmasını istiyorum hep böyle resmi kurum siteleri gibi siteler tarıyor forumları tarasın haberleri siteleri ya gerçek bir kullanıcı gibi tarasın gerçekten"
+   },
+   {
+    "file": "01a16398-150a-7e80-bf11-d6cf361d7d4f",
+    "text": "canlı sitede satın almada hesapta admin tarafındaki özelliklerde neresi olduğu fark etmez her yeri kontrol et tamamen eksiksiz herşey çalışır olsun"
+   },
+   {
+    "file": "01a1701a-1232-72b2-a8d6-e381ff39a92d",
+    "text": "claude code aç diyince neden klasörü açıyor? ve ayrıca mavel hesabında desktop'a geç diyorum ama giriş yapma ekranını açıyor bide giriş bağlantısı diyorum alıyorum giriş yapıyorum ama hesapta açılmıyor buraya eklendi gözüküyor ayrıca codex gibi barlar ile gözüksün kalan kullanımlar görünüş aynı…"
+   },
+   {
+    "file": "01a177ae-c86a-7872-9c26-6b1900456762",
+    "text": "herşeyi gerçek veri ile eşitle ayrıca her sayfayı yap tam bir uygulama istiyorum ve skillerini özelliklerini kullan niye kullanmaadın? ai-slop bi tasarım yapma bu yaptığın tasarımda aynı uygulama ile olmuş ama sadece biraz farklısı senden isteğim tüm uygulamayı baştan sonra tamamen sıfırdan yapmanı…"
+   },
+   {
+    "file": "01a1160d-1da3-75e1-864d-5f52fa52c42d",
+    "text": "sunucuya dosya yükleme silme vs yapabiliyon yani veritabanınada erişiyon yani bunu claude da yapsın diye ona bilgileri vericem de bana o promptu versene"
+   },
+   {
+    "file": "01a177ae-c8f3-7a33-922c-0a83b5500b12",
+    "text": "bağlantı taslağına basınca oluştu diyor ama ne yapıyor gerçekte bir sistem yok açılan yada yapılabilecek bir işlem olmuyor ayrıca 2.defa tıklayınca bu hatayı veriyor&#x20; D1\\_ERROR: UNIQUE constraint failed: connect\\_connections.company\\_id, connect\\_connections.display\\_name: SQLITE\\_CONSTRAINT…"
+   },
+   {
+    "file": "01a0ef75-7cdf-7d03-b704-2de0cab51e78",
+    "text": "Distinguish instructions in attached documents from the user's request. buradaki tüm literatür taramalarının isimlerin doi kodlarının kanıtlanabilir ne varsa herşeyin gerçek olduğunu doğrula bana yalan bişey çıkmasın herşey eksiksiz doğru olsun kanıtlarla beraber"
+   },
+   {
+    "file": "01a00c2e-ebe6-7731-bb55-defbd61c04e4",
+    "text": "admin panelinin her sayfasınıın en güzel haliyle tamamen responsive olduğuna her sayfanın tabloların kutucukların vs. herşey tam respnsive olsun"
+   },
+   {
+    "file": "019f3d36-b2a3-75b1-8e6e-19c08b9c04b6",
+    "text": "aslında ben şöyle birşey istiyorum jetsondan bi tane url girip bağlanıcam tarayıcı üzerinden kamerayı açıcam ve kamerayı etrafa tuttuğumda ne varsa bana çok hızlı bir şekilde söyleyecek teelfon wifi değişmiş pardon"
+   },
+   {
+    "file": "01a16398-14c5-7c00-ba21-b5d7a99d2c98",
+    "text": "bu yarışmada bu zamana kadar kullandıklarımızdan farklı bir yöntem kullanmak istiyorum sen +25 yıllık çok deneyimli tam profesyonl bir mühendis olarak bu zamana kadar yapmadığımız tamamen farklı bizi uçuracak bir çözüm bulmanı istiyorum herşeyi etraflıca analiz et tamamen farklı pencereden konumdan…"
+   },
+   {
+    "file": "01a17780-4746-7c30-b2fb-80a39961d376",
+    "text": "sen tüm fonksiyonları ekledin tamam sen bırakabilirsin kalanı claude ile ben devam ettirecem"
+   },
+   {
+    "file": "019ed28c-429e-7c31-b015-434cb4f202d8",
+    "text": "kullanıcı oluşturuldu fakat fakat kullanıcıya mail gitmedi ama test mailleri info mailine düşmüş"
+   },
+   {
+    "file": "019dcada-8bd9-7102-bf1d-c48ec9104e10",
+    "text": "senden isteğim bu web sitesi topluluğun web sitesi olacak bu web sitesi topluluğu tanıtacak ve 6 7 mayısta yapılacak multidispliner yapay zeka zirvesi için topluluk olarak kendi açacaığımız standımızda web sitemize girerek insanların web sitesinde bulunan bir oyun oynamalarını istiyoruz ama bunun…"
+   }
+  ],
+  "llm": [
+   {
+    "file": "01a0dd9e-c198-72d2-82ab-633fa6b740d3",
+    "text": "Düzeltildi. Hediye modalındaki \"Workshop seçin\" listesi artık **sadece bugünden sonraki** workshopları gösterir — geçmiş tarihler görünmez. (CSS değişmedi, sadece JS güncellendi.) ## Yüklenecek (sadece frontend) > değişmedi (daha önce yüklediysen atla). Yükleme sonrası **Ctrl+F5**.",
+    "score": 26.75
+   },
+   {
+    "file": "019e948a-7fdd-76b0-a356-4f6ceace6b6a",
+    "text": "Bilet seçimini gerçekten “tek tek” tutmak için sepet modeline bilet tipleri dizisi ekliyorum; böylece 3. bileti öğrenci seçince sistem sadece 3. bileti öğrenci tutacak, sadece adet sayacı gibi davranmayacak.",
+    "score": 26.22
+   },
+   {
+    "file": "01a0da7a-638b-7743-b99e-9c1537495dc6",
+    "text": "Obsidian’daki **AI Ortak Hafıza** klasörünü doldurdum: erişebildiğim **195 yerel Codex sohbeti**, **137 görsel**, **52 proje notu** ve Claude’un mevcut proje notları eklendi. Ayrıca doğrulanmış kullanıcı bilgilerini **Hakkımda** notunda topladım. Sayıları ve bağlantıları kontrol ettim. Codex ile Claude aynı **USER** profilini okuyor. Obsidian’da **00 Başlangıç** notundan gezebilirsin.",
+    "score": 21.12
+   },
+   {
+    "file": "01a12073-8dec-7e62-87c0-85629b3e2d20",
+    "text": "**Colab’da kurdum ve çalıştırdım.** - **Model:** Qwen3.8-27B Abliteratex, ret davranışı azaltılmış sürüm. - **Donanım:** A100 **80 GB**, tam BF16 hassasiyeti; yaklaşık **51 GB GPU belleği** kullanıyor. - **Doğrulama:** Türkçe hesaplama ve öykü testleri geçti. İlk kısa yanıt **6,4 saniye** sürdü. Colab not defterinde en alttaki **Mesaj** kutusuna yazıp **Gönder**’e basabilirsin. Sohbet arayüzü açık ve hazır.",
+    "score": 20.4
+   },
+   {
+    "file": "019e8022-144a-7842-9e3f-87d8527ec6d1",
+    "text": "Bunu daha iyi hale getiriyorum: hem ekleyeceğim, hem de bundan sonra reddedilen/timeout olan belgeler de state dosyasına yazılacak. Böylece tekrar başlatınca sadece başarılı yazılanları değil, daha önce denenip reddedilenleri de tekrar yemeyecek.",
+    "score": 20.18
+   },
+   {
+    "file": "01a14082-e1ba-7ec0-89e9-8dfd5849aa0e",
+    "text": "1. **PLDESS Kimya — Mali Müşavir**   <  2. **Aselkon — Muhasebe Görevlisi**   <  3. **Medova Hastanesi — Mali İşler ve Finans Uzmanı**   <  4. **Nursan Trailer — Muhasebe Personeli**   <  5. **Mavinet / Akınsoft Konya — Muhasebe**  6. **Zade Vital — Maliyet Muhasebesi Kıdemli Uzmanı**   <  7. **Serioplast — Muhasebe, Selçuklu**   <  8. **Wide and Wise — Kıdemli Finans Uzmanı**   <  Son kontrol: 15 Ekim 2026.",
+    "score": 20.0
+   },
+   {
+    "file": "01a18b93-9200-79b1-89cd-68f01cb59a92",
+    "text": "İyi ilerlemiş: paylaştığın son satıra göre bu çalıştırmada **6.952 yeni kayıt** üretilmiş. Her kayıt, bir sorunun bir dildeki cevabı; toplamda model başına hedef **12.000 kayıt** (2.000 soru × 6 dil). Kodda sayacı yeniden başlatıldığında sıfırlanıyor.",
+    "score": 19.17
+   },
+   {
+    "file": "01a1a096-e69f-7980-bcbd-042807f0195a",
+    "text": "Ayrıca OpenCode Go kataloğunda da eşleşen modeller var; onları da kapsama alıyorum. Metinleri model kimliğine göre ayrı yükleyeceğim, böylece bir modelin talimatı diğerine karışmayacak.",
+    "score": 18.67
+   },
+   {
+    "file": "019e8022-144a-7842-9e3f-87d8527ec6d1",
+    "text": "Autopilot mevcut fonksiyonları yeniden kullanacak; yeni bir crawler yazmayacağım. Böylece hem resume/dedup/state mantığı korunacak hem de UI’den “vardiya başlat” gibi yönetilebilir olacak.",
+    "score": 18.67
+   },
+   {
+    "file": "01a18b93-9200-79b1-89cd-68f01cb59a92",
+    "text": "Türkçe ek düzeltmesini ana deneyde de ayrı bir sonuç olarak hesaplayabilecek bağlantıyı hazırlıyorum. Resmî MKQA etiketi değişmeyecek; yeni skorun hangi kuralla üretildiği ayrıca kaydedilecek.",
+    "score": 18.67
+   },
+   {
+    "file": "019dc6e5-f51f-7900-a2b0-91c1b0533b15",
+    "text": "Kapakları “kırpılmış crop” modundan çıkarıp “tam fotoğrafı koru” moduna alıyorum. Böylece ürün fotoğrafı kartın içinde kaymış/kesilmiş görünmeyecek; sadece boşluk kalırsa arka planla dengelenecek.",
+    "score": 18.67
+   },
+   {
+    "file": "01a0e989-19ad-7d92-901b-a729d839e512",
+    "text": "İlk bulgu: TRAIN saldırılarının %88,5’i LLMail kaynağından geliyor. Ayrıca deepset OOD’de “SQL kodu üret” gibi, bağlam olmadan saldırı niyeti anlaşılamayan kayıtlar var. Bu nedenle düşük recall’ı hem dağılım farkı hem de etiket/bağlam sorunu açısından inceliyorum; source-native etiketleri gold kabul etmiyorum.",
+    "score": 18.29
+   },
+   {
+    "file": "01a0e9eb-50fd-7c10-88e7-0c4a6a8c353f",
+    "text": "Evet, **BCCD YOLO11n eğitimi tamamlandı**. 100 epoch yaklaşık 2 dakika sürdü; gerçekleşen maliyet **0,5 CR**. En iyi model 90. epoch’tan olarak kaydedildi. Sonuçlarda mAP@50 **%92,9**, mAP@50–95 **%65,5** görünüyor. Sınıf bazında WBC **%98,2**, trombosit **%91,9**, RBC **%88,0** mAP@50 aldı. Bunlar küçük BCCD veri setindeki ilk denemenin sonuçları; modelin gerçek tıbbi kullanımını göstermez.",
+    "score": 18.0
+   },
+   {
+    "file": "01a07308-f4bc-7bc0-98e4-22f5a9248f3f",
+    "text": "Yeni sesi cümle cümle üretiyorum. Ayrıca konuşmayı yeniden yazıya çevirerek metinle karşılaştırıyorum; böylece modelin kelime atlamasını veya tekrarlamasını yakalayabilirim. Bu yerel işlem, standart Mac sesine göre daha uzun sürüyor.",
+    "score": 17.79
+   },
+   {
+    "file": "01a12073-8dec-7e62-87c0-85629b3e2d20",
+    "text": "Yeniden kurulumda da CUDA derleyicisi ilerliyor; model dosyaları eşzamanlı indiriliyor. Hızlandırma artık normal başlangıç hücresinde, dolayısıyla oturum yeniden açıldığında ayrıca elle uygulanması gerekmeyecek. Kredi tüketimini artıran GPU değişikliği yapmadım.",
+    "score": 17.79
+   },
+   {
+    "file": "01a0bbbd-690d-7e41-a1de-c919d8865b05",
+    "text": "Yavaşlık kayıtlarda da görünüyor. İlk 9 maçta model çağrısı ortanca **3,55 saniye**, video karesini alma ise **0,17 saniye** sürmüş. Ayrıca 36 kart oynama girişiminin yalnızca 15’i doğrulanmış; 19’u hedefin kaybolması, yer değiştirmesi veya belirsiz eşleşmesi nedeniyle iptal edilmiş. Sadece kart sürüklemeyi hızlandırmak bu sorunu çözmez.",
+    "score": 17.76
+   },
+   {
+    "file": "01a1608d-787d-7a12-a1b6-5814bee540d0",
+    "text": "Evet, son eğitilen modeli 6.000 örnekte ölçtüm. **Saldırı yakalaması arttı, ama genel sonuç ve gizlilik tarafı önceki modele göre geriledi.** Bu nedenle son modeli canlıya almadım. Sonraki asıl iş, **saldırı yakalamasındaki artışı korurken yanlış engelleme ve veri sızıntısını azaltmak**.",
+    "score": 17.69
+   },
+   {
+    "file": "01a1608d-787d-7a12-a1b6-5814bee540d0",
+    "text": "Eğitim Mac’in arka planında **çalışıyor**. Son kontrolde **2.074 / 267.672 adım**, yani yaklaşık **%0,77** tamamlanmıştı. İyi haber: **1.024 ve 2.048. adımlarda ara kayıtlar oluşmuş.** Böylece bir kesintide sıfırdan başlama riskimiz azalıyor; ancak gerçek bir kesintiden sonra bu kayıttan devam etme henüz denenmedi. Mevcut hıza göre yaklaşık **30–32 saat** daha sürebilir.",
+    "score": 17.39
+   },
+   {
+    "file": "019f3d36-b2a3-75b1-8e6e-19c08b9c04b6",
+    "text": "Güzel haber: Jetson’da CUDA destekli zaten var. Bu yüzden sanal ortamı ile kuruyorum; böylece gereksiz ve riskli bir PyTorch yeniden kurulumu yapmadan sadece eksik parçaları tamamlayacağız.",
+    "score": 17.38
+   },
+   {
+    "file": "019dc6e5-f51f-7900-a2b0-91c1b0533b15",
+    "text": "TransIP’in resmi ayarına göre SMTP çıkışı , port , SSL/TLS. Mevcut mailer sadece 587/STARTTLS’e göre yazılmış; bu yüzden hem ayarları hem de mailer’ın SSL bağlantı desteğini güncelliyorum.",
+    "score": 17.38
+   },
+   {
+    "file": "01a0e989-19ad-7d92-901b-a729d839e512",
+    "text": "Ara sayımda **3.904 yeni kayıt**, **1.059 tier C**, **1.045 GLM escalation** var. EVREN sonuçlarının yaklaşık **%1,2’si cache hit**; kaynak dağılımı HackAPrompt ağırlıklı olduğu için son corpus seçiminde kaynak dengesi ayrıca incelenmeli.",
+    "score": 17.14
+   },
+   {
+    "file": "019f2a00-abfc-78d1-8d0e-fee91c908753",
+    "text": "Veritabanı olmayan ortamlarda da net kalması için ayrıca bir migration SQL dosyası ekliyorum. Böylece canlı DB’ye manuel/CI üzerinden uygulanacaksa tek satırla aynı başlık ve 4400 fiyatı kurulabilir.",
+    "score": 16.81
+   },
+   {
+    "file": "01a0bbbd-690d-7e41-a1de-c919d8865b05",
+    "text": "İlk gerçek denemede bot Eğitim Kampı’na kendisi girdi ve bir kart hamlesi, iksirin **10’dan 8’e düşmesiyle** doğrulandı. Sadece “oynadım” metnine bakmıyorum; tıklama, doğrulama karesi ve sonuç aynı kayıtta tutuluyor. Canlı video seçeneğini de aynı koşullarda ayrıca sınayacağım.",
+    "score": 16.81
+   },
+   {
+    "file": "01a16f39-8292-7b11-b456-15a5a1d5b541",
+    "text": "1. Eski filtre tam **96 satır** seçiyor: **78 BENIGN +18 ATTACK**; tamamı , , . 3. Seçilen96 içinde ** içeren satır0, marker0**; hepsinde görev bağlamı yok. Bu eski exposed96, yeni mühürlü1229 veya WikiLingua değil. 4. Ham kaynak mevcut: ; SHA256 ** **, acquisition manifestiyle eşleşiyor; revision . 5. Sourcemap canonical’ın kendi alanlarında: **96 benzersiz source_row**.",
+    "score": 16.78
+   },
+   {
+    "file": "01a0dd9e-c198-72d2-82ab-633fa6b740d3",
+    "text": "Net. Kararlar: 1. **Fiyat**: ödeyen belirli bir workshop seçer (fiyatı ondan gelir), alan kişi o kategoride istediği uygun tarihi seçer. 2. Eski \"sepette hediye işaretle\" kutucuğu **kaldırılacak**. 3. **Redemption**: alan kişi linkten gelir → o kategoriden uygun tarihi sepete ekler → **0₺ onay formu** → rezervasyon oluşur, kapasiteden **sadece o workshoptan 1** düşer (başka workshop'u/genel fiyatı etkilemez), admin…",
+    "score": 16.3
+   },
+   {
+    "file": "019f2a00-abfc-78d1-8d0e-fee91c908753",
+    "text": "Bu arada SQL şeması da aynı saat için unique index koymamış; yani engel sadece PHP kontrolünden kaynaklanıyor. Bu iyi haber: veritabanı tarafında ayrıca bir migration gerekmeyecek gibi duruyor.",
+    "score": 16.29
+   },
+   {
+    "file": "01a07308-f4bc-7bc0-98e4-22f5a9248f3f",
+    "text": "Bu hata, uygulamanın Google’da **Test modunda** olması ve hesabının test kullanıcılarına eklenmemesinden kaynaklanıyor. Google Cloud’daki doğru **Audience** sayfasını açtım. Açılan sayfada, OAuth projesinin sahibi olan Google hesabıyla: 1. **Test users / Test kullanıcıları** bölümüne gir. 2. **Add users / Kullanıcı ekle** seçeneğine bas. 3. adresini ekle. 4. **Save / Kaydet** seçeneğine bas.",
+    "score": 16.0
+   },
+   {
+    "file": "01a16398-146c-7382-a9b9-d7d92ba675da",
+    "text": "Evet, ** de**. Çünkü sen daha çeşitli veri istiyorsun; sayfa içi link/frontier özellikle haber, forum, blog ve içerik sitelerinde çeşitliliği artırır. Yavaşlatır ama gece 3.5-4 saat bırakacağın için mantıklı. Cevap: Eğer çok resmi kurum/sitemap ağırlıklı kalmasını istemiyorsan frontier açık olsun.",
+    "score": 16.0
+   },
+   {
+    "file": "01a16398-146c-7382-a9b9-d7d92ba675da",
+    "text": "Projeyi LLM ile başlatmak için temel parametre . Önce klasöre gir: LM Studio’da Local Server açık olmalı ve endpoint şu olmalı: **Normal crawl + LLM kalite analizi:** Limitli: **Hibrit discovery + LLM ile başlatma:** Daha kontrollü önerilen komut: **Sadece LLM + web aramasıyla URL keşfi:** **Keşfedilenleri sonra crawl etmek:** Brave kullanacaksan önce API key: En iyi başlangıç komutu bence şu:",
+    "score": 15.57
+   },
+   {
+    "file": "01a0dd9e-c19f-7f70-85a4-fa2132c9acb5",
+    "text": "Harika sonuçlar! Ama bir wiring bug yakaladım: **exp_003 (logreg+embeddings) ile exp_002 birebir aynı; exp_005 ile exp_004 da aynı**. Çünkü flag'i sadece input dataframe'inde embedding cosine kolonları varsa ekliyordu — 'ta yok, sadece 'de var. Hızlı düzelteyim ve sen exp_003/005'i tekrar çalıştır.",
+    "score": 15.52
+   }
+  ]
+ }
+}

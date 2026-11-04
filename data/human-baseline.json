@@ -1,0 +1,44 @@
+{
+  "source": "/Users/egearhany/.claude/codex-import/chats",
+  "clean_records": 175,
+  "baseline": {
+    "records": 175,
+    "words": 21401,
+    "sentences": 1490,
+    "words_per_record": 122.3,
+    "words_per_sentence_mean": 14.36,
+    "words_per_sentence_median": 12,
+    "pct_sentences_gt40w": 3.49,
+    "pct_sentences_le8w": 28.12,
+    "sentence_final_verb_pct": 36.44,
+    "sentence_final_verb_pct_lo": 31.54,
+    "punct_per_1k": {
+      "em_dash": 0.98,
+      "en_dash": 0.84,
+      "semicolon": 18.69,
+      "colon": 19.25,
+      "paren": 1.31,
+      "ellipsis": 0.19,
+      "question": 3.32,
+      "exclaim": 0.05,
+      "curly_quote": 6.35
+    },
+    "suffix_per_1k": {
+      "yor": 16.82,
+      "mekte_makta": 0.0,
+      "mis_mush": 7.43
+    },
+    "dolgu_per_1k": {
+      "yani": 1.26,
+      "işte": 0.23,
+      "hani": 0.0,
+      "bence": 0.19,
+      "sanırım": 0.0,
+      "galiba": 0.0,
+      "açıkçası": 0.0,
+      "tabii": 0.05,
+      "bir": 14.3,
+      "aslında": 0.09
+    }
+  }
+}
